@@ -1,0 +1,42 @@
+#tech {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#icon_tech {
+  width: 50px;
+  height: 80px;
+}
+
+#react_icon {
+  width: 60px;
+  height: 60px;
+}
+
+#express_icon {
+  width: 60px;
+  height: 60px;
+}
+
+#psql_icon {
+  width: 60px;
+  height: 60px;
+}
+
+#seq_icon {
+  width: 60px;
+  height: 60px;
+}
+
+#node_icon {
+  width: 60px;
+  height: 60px;
+}
+
+#js_icon {
+  width: 60px;
+  height: 60px;
+}
