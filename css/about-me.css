@@ -54,13 +54,13 @@
 
 @media screen and (max-width: 450px) {
   #about-me {
-    height: 180vh;
+    height: 190vh;
   }
 }
 
 @media screen and (min-height: 800px) {
   #about-me {
-    height: 160vh;
+    height: 150vh;
   }
 }
 
