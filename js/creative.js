@@ -36,7 +36,7 @@
 
   // Collapse Navbar
   var navbarCollapse = function() {
-    if ($('#mainNav').offset().top > 650) {
+    if ($('#mainNav').offset().top > 600) {
       $('#mainNav').addClass('navbar-shrink');
       $('#mainNav').addClass('navbar-expand-lg-hide');
       $('.nav-logo').addClass('nav-logo-hide');
