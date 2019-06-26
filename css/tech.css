@@ -6,6 +6,10 @@
   align-items: center;
 }
 
+.tech-link:hover {
+  text-decoration: none;
+}
+
 #icon_tech {
   width: 50px;
   height: 80px;
