@@ -6,10 +6,6 @@
   align-items: center;
 }
 
-.tech-link:hover {
-  text-decoration: none;
-}
-
 #icon_tech {
   width: 50px;
   height: 80px;
@@ -40,7 +36,37 @@
   height: 60px;
 }
 
-#js_icon {
+#redux_icon {
   width: 60px;
   height: 60px;
+}
+
+#react_icon:hover {
+  transform: translateY(-7px);
+  transition: all 0.05s linear;
+}
+
+#express_icon:hover {
+  transform: translateY(-7px);
+  transition: all 0.05s linear;
+}
+
+#redux_icon:hover {
+  transform: translateY(-7px);
+  transition: all 0.05s linear;
+}
+
+#seq_icon:hover {
+  transform: translateY(-7px);
+  transition: all 0.05s linear;
+}
+
+#node_icon:hover {
+  transform: translateY(-7px);
+  transition: all 0.05s linear;
+}
+
+#psql_icon:hover {
+  transform: translateY(-7px);
+  transition: all 0.05s linear;
 }
