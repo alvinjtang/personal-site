@@ -25,6 +25,11 @@
   padding-left: 20px;
 }
 
+.project-img:hover {
+  transition: all 0.1s linear; 
+  opacity: 0.7;
+}
+
 .project-img-div {
   display: flex;
   align-items: center;

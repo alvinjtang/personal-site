@@ -6,67 +6,36 @@
   align-items: center;
 }
 
-#icon_tech {
-  width: 50px;
-  height: 80px;
-}
-
-#react_icon {
+.tech_icon {
   width: 60px;
-  height: 60px;
+  height: auto;
 }
 
-#express_icon {
-  width: 60px;
-  height: 60px;
-}
-
-#psql_icon {
-  width: 60px;
-  height: 60px;
-}
-
-#seq_icon {
-  width: 60px;
-  height: 60px;
-}
-
-#node_icon {
-  width: 60px;
-  height: 60px;
-}
-
-#redux_icon {
-  width: 60px;
-  height: 60px;
-}
-
-#react_icon:hover {
+.tech_icon:hover {
   transform: translateY(-7px);
   transition: all 0.05s linear;
 }
 
-#express_icon:hover {
-  transform: translateY(-7px);
-  transition: all 0.05s linear;
+@media screen and (max-width: 450px) {
+  #tech {
+    height: 130vh;
+  }
+  .tech_icon {
+    width: 40px;
+  }
+  .tech-text {
+    font-size: 13px;
+  }
 }
 
-#redux_icon:hover {
-  transform: translateY(-7px);
-  transition: all 0.05s linear;
+@media screen and (min-height: 700px) and (max-height: 800px) {
+  #tech {
+    height: 120vh;
+  }
 }
 
-#seq_icon:hover {
-  transform: translateY(-7px);
-  transition: all 0.05s linear;
-}
-
-#node_icon:hover {
-  transform: translateY(-7px);
-  transition: all 0.05s linear;
-}
-
-#psql_icon:hover {
-  transform: translateY(-7px);
-  transition: all 0.05s linear;
+@media screen and (min-height: 810px) {
+  #tech {
+    height: 105vh;
+  }
 }
