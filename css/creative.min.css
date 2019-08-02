@@ -295,23 +295,15 @@ header.masthead p {
   color: #c4f0c5 !important;
 }
 
-.nav-logo {
+.nav-logo, .nav-logo-b {
   max-height: 2ch;
   transition: all 0.2s linear;
 }
-.nav-logo-hide {
+.nav-logo-hide, .nav-logo-hide-b {
   display: none;
 }
 
-.nav-logo-b {
-  max-height: 2ch;
-  transition: all 0.2s linear;
-}
-.nav-logo-hide-b {
-  display: none;
-}
-
-.nav-logo-b:hover {
+.nav-logo:hover, .nav-logo-b:hover {
   transform: rotate(180deg);
 }
 
@@ -389,36 +381,4 @@ header.masthead p {
   margin-top: 0;
 }
 
-ul.social-buttons {
-  margin-bottom: 0;
-}
-ul.social-buttons li a {
-  font-size: 20px;
-  line-height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 50px;
-  height: 50px;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  color: #fff;
-  border-radius: 100%;
-  outline: 0;
-  background-color: #212529;
-  margin: 5px;
-}
-/* ul.social-buttons li a:active,
-ul.social-buttons li a:focus, */
-ul.social-buttons li a:hover {
-  padding-bottom: 5px;
-  background-color: rgb(188, 234, 241);
-  color: rgb(68, 68, 68);
-  text-decoration: none;
-}
 
-#contact {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}

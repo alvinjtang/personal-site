@@ -103,3 +103,32 @@
     },
   });
 })(jQuery); // End of use strict
+
+function appear(el) {
+  document.getElementById(el).style.opacity = 1;
+}
+
+function disappear(el) {
+  document.getElementById(el).style.opacity = 0;
+}
+
+var linkedIn = document.getElementById("linked-in-btn");
+var github = document.getElementById("github-btn");
+var resume = document.getElementById("resume-btn");
+var youtube = document.getElementById("youtube-btn");
+var lvet = document.getElementById("lvet-btn");
+
+linkedIn.addEventListener("mouseover", () => appear("linked-in"))
+linkedIn.addEventListener("mouseout", () => disappear("linked-in"))
+
+github.addEventListener("mouseover", () => appear("github"))
+github.addEventListener("mouseout", () => disappear("github"))
+
+resume.addEventListener("mouseover", () => appear("resume"))
+resume.addEventListener("mouseout", () => disappear("resume"))
+
+youtube.addEventListener("mouseover", () => appear("youtube"))
+youtube.addEventListener("mouseout", () => disappear("youtube"))
+
+lvet.addEventListener("mouseover", () => appear("lvet"))
+lvet.addEventListener("mouseout", () => disappear("lvet"))
