@@ -117,6 +117,7 @@ var github = document.getElementById("github-btn");
 var resume = document.getElementById("resume-btn");
 var youtube = document.getElementById("youtube-btn");
 var lvet = document.getElementById("lvet-btn");
+var email = document.getElementById("email-btn");
 
 linkedIn.addEventListener("mouseover", () => appear("linked-in"))
 linkedIn.addEventListener("mouseout", () => disappear("linked-in"))
@@ -132,3 +133,6 @@ youtube.addEventListener("mouseout", () => disappear("youtube"))
 
 lvet.addEventListener("mouseover", () => appear("lvet"))
 lvet.addEventListener("mouseout", () => disappear("lvet"))
+
+email.addEventListener("mouseover", () => appear("email"))
+email.addEventListener("mouseout", () => disappear("email"))
