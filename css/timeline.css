@@ -103,14 +103,14 @@
   .timeline::after {
     left: 31px;
   }
-
+  
   /* Full-width containers */
   .timeline-container {
     width: 100%;
     padding-left: 70px;
     padding-right: 25px;
   }
-
+  
   /* Make sure that all arrows are pointing leftwards */
   .timeline-container::before {
     left: 60px;
@@ -118,13 +118,13 @@
     border-width: 10px 10px 10px 0;
     border-color: transparent white transparent transparent;
   }
-
+  
   /* Make sure all circles are at the same spot */
   .timeline-left::after,
   .timeline-right::after {
     left: 20px;
   }
-
+  
   /* Make all right containers behave like the left ones */
   .timeline-right {
     left: 0%;
@@ -142,14 +142,14 @@
   .timeline::after {
     left: 28px;
   }
-
+  
   /* Full-width containers */
   .timeline-container {
     width: 100%;
     padding-left: 70px;
     padding-right: 25px;
   }
-
+  
   /* Make sure that all arrows are pointing leftwards */
   .timeline-container::before {
     left: 60px;
@@ -157,13 +157,13 @@
     border-width: 10px 10px 10px 0;
     border-color: transparent white transparent transparent;
   }
-
+  
   /* Make sure all circles are at the same spot */
   .timeline-left::after,
   .timeline-right::after {
     left: 18px;
   }
-
+  
   /* Make all right containers behave like the left ones */
   .timeline-right {
     left: 0%;
@@ -172,4 +172,13 @@
   .timeline-content ul {
     padding-inline-start: 1em;
   }
+}
+
+#lvet-link {
+  color: rgb(143, 178, 255);
+}
+
+#lvet-link:hover {
+  color: rgb(37, 106, 255);
+  text-decoration: none;
 }
