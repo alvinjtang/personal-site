@@ -1,6 +1,6 @@
 .about-me-div {
   /* background-color: rgba(255, 255, 255, 0.582); */
-  height: 30ch;
+  height: 40ch;
   min-width: 100%;
   border-radius: 1%;
   display: flex;
@@ -11,11 +11,10 @@
 }
 
 #about-me {
-  height: 120vh;
+  height: 100vh;
 }
 
 .about-description {
-  width: 50vw;
   min-width: 350px;
   text-align: center;
 }

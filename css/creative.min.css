@@ -366,12 +366,12 @@ header.masthead p {
 }
 
 .team-member {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   text-align: center;
 }
 .team-member img {
-  width: 225px;
-  height: 225px;
+  width: 200px;
+  height: 200px;
 }
 .team-member h4 {
   margin-top: 25px;
