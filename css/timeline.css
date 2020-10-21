@@ -26,7 +26,7 @@
   padding: 10px 40px;
   position: relative;
   background-color: inherit;
-  /* width: 50%; */
+  width: 100%;
 }
 
 /* The circles on the timeline */
@@ -50,7 +50,6 @@
 
 /* Place the container to the right */
 .timeline-right {
-  /* left: 50%; */
 }
 
 /* Add arrows to the left container (pointing right) */
